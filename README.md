@@ -1,6 +1,18 @@
 # bityoga_fabric_test_chaincodes
 Chaincodes to test bityoga hyperledger fabric environment
 
+
+# Prerequisite
+* Hyper ledger fabric should be up and running (https://github.com/achak1987/fabric_as_code.git)
+ * ssh into the worker machine
+   * **Example** - ssh root@165.22.198.81
+ * Get into CLI container shell
+   * **Command** - docker exec -it $(docker ps -qf "name=^CLI")  bash
+ * cd /root/CLI/chaincodes
+ * git clone https://github.com/anandhakumarpalanisamy/bityoga_fabric_test_chaincodes.git
+
+
+
 # Instructions
 
 * **cd CHAIN_CODE_DIR/shell_scripts**
