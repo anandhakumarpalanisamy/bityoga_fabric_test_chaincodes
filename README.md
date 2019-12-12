@@ -10,6 +10,7 @@ Chaincodes to test bityoga hyperledger fabric environment
    * **Command** - docker exec -it $(docker ps -qf "name=^CLI")  bash
  * cd /root/CLI/chaincodes
  * git clone https://github.com/anandhakumarpalanisamy/bityoga_fabric_test_chaincodes.git
+ * cd /root/CLI/chaincodes/bityoga_fabric_test_chaincodes
 
 
 
