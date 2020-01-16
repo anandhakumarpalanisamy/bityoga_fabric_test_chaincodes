@@ -20,6 +20,6 @@ Chaincodes to test bityoga hyperledger fabric environment
   * **Example** - cd bank_chaincode/shell_scripts
  * **Install chaincode**  - bash install.sh
  * **Instantiate chaincode**  - bash instantiate.sh
- * **GET requeston on chaincode**  - bash get.sh
+ * **GET request on chaincode**  - bash get.sh
  * **PUT request on chaincode** - bash put.sh
  
