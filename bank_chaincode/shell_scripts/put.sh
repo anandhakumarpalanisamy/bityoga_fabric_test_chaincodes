@@ -9,4 +9,4 @@ export CORE_PEER_MSPCONFIGPATH=$CORE_PEER_MSPCONFIGPATH
 export CORE_PEER_TLS_ROOTCERT_FILE=$CORE_PEER_TLS_ROOTCERT_FILE
 
 
-peer chaincode invoke -C appchannel -n testcc -c '{"Args":["invoke","a","b","10"]}' --tls --cafile ${CORE_PEER_TLS_ROOTCERT_FILE}
+peer chaincode invoke -C appchannel -n bankcc -c '{"Args":["invoke","a","b","10"]}' --tls --cafile ${CORE_PEER_TLS_ROOTCERT_FILE}
