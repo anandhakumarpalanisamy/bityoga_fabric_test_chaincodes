@@ -8,4 +8,4 @@ export CORE_PEER_ADDRESS=$CORE_PEER_ADDRESS
 export CORE_PEER_MSPCONFIGPATH=$CORE_PEER_MSPCONFIGPATH
 export CORE_PEER_TLS_ROOTCERT_FILE=$CORE_PEER_TLS_ROOTCERT_FILE
 
-peer chaincode install -n testcc -v 1.0 -l node -p /root/CLI/chaincodes/bityoga_fabric_test_chaincodes/bank_chaincode/node
+peer chaincode install -n bankcc -v 1.0 -l node -p /root/CLI/chaincodes/bityoga_fabric_test_chaincodes/bank_chaincode/node
